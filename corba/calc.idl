@@ -1,0 +1,10 @@
+module calc_val 
+{
+  interface calc 
+  {
+    float getHomeLoan();
+    float getPersonalLoan();
+    float getCarLoan();
+    float getGoldLoan(); 
+  }; 
+};
